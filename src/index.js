@@ -24,7 +24,6 @@ export default class Fingerprint {
 
   fingerprintInit(params, callback) {
     Fingerprint2.get(params, components => {
-      debugger;
       const values = components.map(function(component) {
         return component.value;
       });
